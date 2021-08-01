@@ -51,4 +51,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub radiorabe Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/radiorabe/keycloak-theme-rabe</url>
+        </repository>
+    </distributionManagement>
 </project>
