@@ -1,6 +1,8 @@
 {
-  "themes": [{
-    "name" : "rabe",
-    "types": [ "login", "account" ]
-  }]
+  "themes": [
+    {
+      "name": "rabe",
+      "types": ["login"]
+    }
+  ]
 }
