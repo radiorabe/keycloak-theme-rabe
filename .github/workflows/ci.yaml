@@ -34,3 +34,15 @@ jobs:
         with:
           name: Package
           path: staging
+
+      - name: Publish SNAPSHOT to Github Packages
+        if: ${{ github.ref == 'refs/heads/main' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: mvn deploy
+
+      - name: Publish Release to GitHub Packages
+        if: ${{ startsWith('refs/tags/v', github.ref) }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: mvn deploy
