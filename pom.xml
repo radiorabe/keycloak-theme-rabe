@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <version>0.1.0-SNAPSHOT</version>
+    <groupId>ch.rabe.keycloak</groupId>
+    <artifactId>keycloak-theme-rabe</artifactId>
+    <packaging>jar</packaging>
+    <name>Radio Bern RaBe Keycloak Theme</name>
+    <description>RaBe Keycloak theme cutomises the login and account-console themes nicely.</description>
+
+    <properties>
+        <version.keycloak>14.0.0</version.keycloak>
+        <arquillian-graphene.version>2.3.2</arquillian-graphene.version>
+        <arquillian-phantom.version>1.2.1.1</arquillian-phantom.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.arquillian.graphene</groupId>
+            <artifactId>graphene-webdriver</artifactId>
+            <version>${arquillian-graphene.version}</version>
+            <type>pom</type>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-client-registration-api</artifactId>
+            <version>${version.keycloak}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.arquillian.extension</groupId>
+            <artifactId>arquillian-phantom-driver</artifactId>
+            <version>${arquillian-phantom.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>keycloak-theme-rabe</finalName>
+    </build>
+</project>

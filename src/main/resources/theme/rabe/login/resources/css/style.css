@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap");
+
+body {
+  --rabe-login--background-color: #00c9bf;
+  --rabe-login--primary-color: #7550eb;
+  --rabe-login--primary-color--darker: #4d28c3;
+
+  --pf-global--FontFamily--sans-serif: Roboto;
+  --pf-global--FontFamily--heading--sans-serif: Fjalla One;
+
+  --pf-global--BackgroundColor--dark-100: var(--rabe-login--background-color);
+
+  --pf-global--primary-color--100: var(--rabe-login--primary-color);
+  --pf-global--primary-color--dark-100: var(--rabe-login--primary-color);
+  --pf-global--primary-color--200: var(--rabe-login--primary-color--darker);
+  --pf-global--primary-color--dark-200: ar(--rabe-login--primary-color--darker);
+  --pf-global--link--Color: var(--rabe-login--primary-color);
+  --pf-global--link--Color--dark: var(--rabe-login--primary-color);
+  --pf-global--link--Color--hover: var(--rabe-login--primary-color--darker);
+  --pf-global--link--Color--focus: var(--rabe-login--primary-color--darker);
+}
+
+body h1 {
+  font-family: var(--pf-global--FontFamily--heading--sans-serif);
+}
+
+.login-pf body {
+  background: url("https://rabe.ch/wp-content/uploads/2016/07/Header.gif")
+    no-repeat center center fixed !important;
+  background-size: cover;
+  height: 100%;
+}
+
+/* Hide Header */
+body #kc-header {
+  visibility: hidden;
+}
+
+body input:focus {
+  outline-color: var(--pf-global--link--Color);
+}
+
+body a {
+  color: var(--pf-global--link--Color);
+}
+
+body a:focus {
+  color: var(--pf-global--link--Color--focus);
+}
+body a:hover,
+body .login-pf a:hover {
+  color: var(--pf-global--link--Color--hover);
+}
