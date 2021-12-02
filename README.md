@@ -23,6 +23,10 @@ We currently suppport the `de` and `en` locales of Keycloak. More locales might 
 
 ## Deployment
 
+### Release
+
+This project uses [jgitver](https://jgitver.github.io/) for managing its version.
+
 ### Build Archive
 
 ```
