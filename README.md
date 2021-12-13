@@ -16,6 +16,7 @@ Shows what version of Keycloak the theme is compatible with.
 | Theme Version | 14.x | 15.x |
 | ------------- | ---- | ---- |
 | 0.1           | ✅   |      |
+| 0.2           |      | ✅   |
 
 ### Language Support
 
