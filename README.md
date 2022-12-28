@@ -29,6 +29,18 @@ We currently suppport the `de` and `en` locales of Keycloak. More locales might 
 
 This project uses [jgitver](https://jgitver.github.io/) for managing its version.
 
+To publish a new release, you have to create an annotated tag and push it:
+
+```bash
+VER=v0.0.0
+
+git tag -a $VER
+
+git push origin --tags
+```
+
+Once tagged, the ci pipeline should publish publish the jar to GitHub packages and also create a release.
+
 ### Build Archive
 
 ```
