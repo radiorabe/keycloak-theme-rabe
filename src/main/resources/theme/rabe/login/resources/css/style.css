@@ -13,7 +13,7 @@ body {
   --pf-global--primary-color--100: var(--rabe-login--primary-color);
   --pf-global--primary-color--dark-100: var(--rabe-login--primary-color);
   --pf-global--primary-color--200: var(--rabe-login--primary-color--darker);
-  --pf-global--primary-color--dark-200: ar(--rabe-login--primary-color--darker);
+  --pf-global--primary-color--dark-200: var(--rabe-login--primary-color--darker);
   --pf-global--link--Color: var(--rabe-login--primary-color);
   --pf-global--link--Color--dark: var(--rabe-login--primary-color);
   --pf-global--link--Color--hover: var(--rabe-login--primary-color--darker);

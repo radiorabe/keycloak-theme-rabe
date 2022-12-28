@@ -13,10 +13,11 @@ the user experience of how we set up Keycloak at RaBe.
 
 Shows what version of Keycloak the theme is compatible with.
 
-| Theme Version | 14.x | 15.x |
-| ------------- | ---- | ---- |
-| 0.1           | ✅   |      |
-| 0.2           |      | ✅   |
+| Theme Version | 14.x | 15.x | 20.x |
+| ------------- | ---- | ---- | ---- |
+| 0.1           | ✅   |      |      |
+| 0.2           |      | ✅   |      |
+| 0.3           |      |      | ✅   |
 
 ### Language Support
 
