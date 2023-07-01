@@ -9,7 +9,7 @@
     <description>RaBe Keycloak theme cutomises the login and account-console themes nicely.</description>
 
     <properties>
-        <version.keycloak>20.0.3</version.keycloak>
+        <version.keycloak>21.1.2</version.keycloak>
         <arquillian-graphene.version>2.5.4</arquillian-graphene.version>
         <arquillian-phantom.version>1.2.1.1</arquillian-phantom.version>
     </properties>
