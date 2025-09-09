@@ -9,10 +9,14 @@
     <description>RaBe Keycloak theme cutomises the login and account-console themes nicely.</description>
 
     <properties>
-        <version.keycloak>20.0.3</version.keycloak>
+        <version.keycloak>26.3.3</version.keycloak>
         <arquillian-graphene.version>2.5.4</arquillian-graphene.version>
         <arquillian-phantom.version>1.2.1.1</arquillian-phantom.version>
     </properties>
+
+    <prerequisites>
+        <maven>3.6.3</maven>
+    </prerequisites>
 
     <dependencies>
         <dependency>
@@ -47,7 +51,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>3.0.1</version>
+                <version>3.1.0</version>
             </plugin>
         </plugins>
     </build>
