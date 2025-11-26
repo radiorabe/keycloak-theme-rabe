@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap");
 
 body {
-  --rabe-login--background-color: #00c9bf;
-  --rabe-login--primary-color: #7550eb;
-  --rabe-login--primary-color--darker: #4d28c3;
+  --rabe-login--background-color: #E3F9F8;
+  --rabe-login--primary-color: #00C9BF;
+  --rabe-login--primary-color--darker: #00635F;
 
   --pf-global--FontFamily--sans-serif: Roboto;
   --pf-global--FontFamily--heading--sans-serif: Fjalla One;
